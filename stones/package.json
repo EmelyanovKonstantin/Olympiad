@@ -1,0 +1,10 @@
+{
+    "name": "stones",
+    "version": "1.0.0",
+    "scripts" : {
+        "start" : "node stones.js"        
+    },
+    "dependencies": {
+        "readline-sync": "^1.4.10"
+    }
+}
