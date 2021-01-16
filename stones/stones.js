@@ -1,4 +1,5 @@
 const readlineSync = require("readline-sync");
+
 console.log("Please input a number between 1 and " + Number.MAX_SAFE_INTEGER);
 let x = Number(readlineSync.question("Stones = "), 10);
 let y = Number(readlineSync.question("Beetles = "), 10);
@@ -18,7 +19,6 @@ if (x == 0 || y == 0 || x < y) {
 let length = intervalLength(x, y);
 let left = Math.trunc((length - 1) / 2);
 let right = length - 1 - left;
-
 console.log("Result : " + left + "," + right);
 /*
   Функция вычисляет размер наибольшего возможно участка на который может сесть последний ( y ) жук
